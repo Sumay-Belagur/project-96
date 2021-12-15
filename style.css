@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-image: url("templatelogin.jpg");
+    background-size: cover;
+    
+}
+h1{
+    font-family: 'Estonia', cursive;
+    color: rgb(207, 190, 207);
+    font-size: 150px;
+}
+#login_input{
+  margin-top: 65px;
+  height: 60px;
+  width: 800px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border-width: 0px;
+  padding-left: 10px;
+  background-image: url("template.jpg");
+  background-size: cover;
+  border-color: transparent;
+  color:rgb(10, 194, 154);
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  
+}
+  #login_btn{
+    margin-top: 200px;
+      width: 300px;
+      height: 60px;
+      background-color: transparent;
+      border-color: rgb(32, 31, 37);
+      border-style: ridge;
+      border-width: 5px;
+      color: rgb(10, 75, 160);
+      font-size: 35px;
+      font-family: 'Roboto Mono', monospace;
+  }
+  ::placeholder {
+    color: rgb(16, 68, 57);;
+  }
+  

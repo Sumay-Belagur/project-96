@@ -1,0 +1,72 @@
+body{
+    background-image: url("template.jpg");
+    background-size: cover;
+}
+#back_btn{
+   margin-left: 10px;
+   background-color: transparent;
+   border-color: tomato;
+   color: gray;
+}
+#h1{
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+}
+#wlc_h3{
+    color:white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+  }
+  #addRoom_div{
+      color: yellowgreen;
+      font-family: 'Yellowtail', cursive;
+      font-size: 30px;
+  }
+  #addRoom_input{
+      width: 400px;
+      background-image: url("templatecube.jpg");
+      border-style:ridges;
+      border-width: 5px;
+      border-color: yellowgreen;
+      color: rgb(0, 255, 234);
+      height: 40px;
+      font-size: 25px;
+      font-family: 'Roboto Mono', monospace;
+      font-weight: bold;
+  }
+  ::placeholder{
+      color: rgb(0, 255, 234);
+      font-family: 'Roboto Mono', monospace;
+  }
+
+#addRoom_btn{
+  background-image: url("templatecube2.jpg");
+  background-size: 400px;
+  color: rgb(20, 214, 248);
+  width: 150px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: rgb(30, 166, 190);
+  }
+  
+  #output{
+      background-color: rgb(51, 51, 51);
+      height: 20px;
+      width: 1000px;
+      border-radius: 100px;
+  }
+  .roomName{
+      background-image: url("background5.jpg");
+      background-size: cover;
+      color: skyblue;
+      margin-bottom: 15px;
+      font-size: 25px;
+      font-family: 'Roboto Mono', monospace;
+      border-radius: 2px;
+      cursor:grab;
+  }
